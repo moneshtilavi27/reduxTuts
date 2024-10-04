@@ -18,7 +18,7 @@ const HomeScreen = (props) => {
             <Button
                 title="Go to User Screen"
                 color="#006600"
-                onPress={() => navigation.navigate("Details", { username: input })}
+                onPress={() => navigation.navigate("product", { username: input })}
             />
         </View>
     )
